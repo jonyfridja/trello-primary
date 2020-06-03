@@ -2,6 +2,6 @@ import { Router } from 'express';
 
 import { getBoardGroups } from  './boardGroup.controller'
 
-const router = Router();
+export  const boardGroupRouter = Router();
 
-router.get('/', getBoardGroups)
+boardGroupRouter.get('/', getBoardGroups)
