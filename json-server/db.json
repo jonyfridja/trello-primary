@@ -1,0 +1,76 @@
+{
+  "boards": [
+    {
+      "_id": "b_101",
+      "name": "First board!",
+      "bgImgUrl": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
+      "bgColor": "blue",
+      "lists": [
+        {
+          "id": "l_101",
+          "title": "first list!",
+          "tasks": [
+            {
+              "id": "t_101",
+              "title": "first title!"
+            },
+            {
+              "id": "t_102",
+              "title": "first title!"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "_id": "u_101",
+      "fullName": "Moshe Avinu",
+      "age": 617,
+      "nickname": "Sea Tearer",
+      "groups": [
+        {
+          "_id": "g_101",
+          "name": "first Group",
+          "memberCount": 1,
+          "boards": [
+            {
+              "_id": "b_101",
+              "name": "First board!",
+              "bgImgUrl": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
+              "bgColor": "blue"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "_id": "g_101",
+      "name": "first Group",
+      "boards": [
+        {
+          "_id": "b_101",
+          "name": "First board!",
+          "bgImgUrl": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
+          "bgColor": "blue"
+        },
+        {
+          "_id": "b_102",
+          "name": "Second board!",
+          "bgImgUrl": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
+          "bgColor": "red"
+        }
+      ],
+      "members": [],
+      "owners": [
+        {
+          "_id": "u_101",
+          "fullName": "Moshe Avinu"
+        }
+      ]
+    }
+  ]
+}
